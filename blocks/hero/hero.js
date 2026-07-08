@@ -6,9 +6,8 @@ export default function decorate(block) {
   rows.forEach((row) => {
     const cells = [...row.children];
 
-    cells.forEach((cell) => {
-      const picture = cell.querySelector("picture");
-      if (picture) {
+    cells.forEach((cell, index) => {
+      if (index === 0) {
         cell.classList.add("hero-image");
       } else {
         cell.classList.add("hero-content");
