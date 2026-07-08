@@ -7,8 +7,8 @@
     overflow: hidden;
     color: white;
     text-align: center;
+    background-color: #1e2761; /* fallback navy background */
 }
-
 .hero.block .hero-image {
     position: absolute;
     top: 0;
