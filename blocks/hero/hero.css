@@ -18,13 +18,6 @@
     z-index: 0;
 }
 
-.hero.block .hero-image picture,
-.hero.block .hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .hero.block .hero-image::after {
     content: "";
     position: absolute;
